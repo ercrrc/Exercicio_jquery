@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lilita One', cursiva;
+}
+
+body {
+    background-color: rgb(229, 237, 220);
+    padding-top: 100px;
+}
+
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+form input {
+    background-color: whitesmoke;
+    font-size: 24px;
+    border: none;
+    padding: 8px;
+}
+
+form button {
+    background-color: rgb(18, 211, 18);
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: 8px;
+}
+
+div.listaItems {
+    padding: 16px;
+}
+
+div.listaItems ul li {
+    text-align: center;
+    list-style-type: none;
+}
+
+.feito {
+    text-decoration: line-through;
+}
